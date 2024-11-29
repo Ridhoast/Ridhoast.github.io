@@ -1,0 +1,178 @@
+<html>
+
+<head>
+  <title>TATA USAHA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="ukk.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ponnala&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="profile-picture">
+        <img src="smk6.jpg">
+        <h4>ProdjostServe</h4>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><label for="toggle"><a href="#" id="btn">Profile</a></label></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <input type="checkbox" id="toggle">
+  <div class="overlay">
+    <div class="overlay-content">
+      <i class="fa-solid fa-x">
+        <input type="checkbox" id="un"></i>
+      <h2>Profile</h2>
+      <img src="smk6.jpg">
+      <h4>SMK Pusat Keunggulan</h4>
+      <h4>Jakarta Selatan</h4>
+    </div>
+  </div>
+  <div class="container">
+    <div class="stats">
+      <div class="card">
+        <div class="card1">
+          <h3>134</h3>
+          <p>Total Barang</p>
+          <div class="arrow arrow-up">
+            <i class="fas fa-arrow-up"></i>
+            <span>100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card2">
+          <h3>21</h3>
+          <p>Barang On Process</p>
+          <div class="arrow arrow-down">
+            <i class="fas fa-arrow-down"></i>
+            <span>14%</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card3">
+          <h3>128</h3>
+          <p>Barang Done</p>
+          <div class="arrow arrow-down">
+            <i class="fas fa-arrow-down"></i>
+            <span>80%</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>2</h3>
+        <p>Barang Hilang</p>
+        <div class="arrow arrow-down">
+          <i class="fas fa-arrow-down"></i>
+          <span>1%</span>
+        </div>
+      </div>
+    </div>
+    <div class="order-list">
+      <div class="tanggal">
+        <button>
+          <i class="fas fa-calendar-alt"></i>
+          Tanggal & Waktu
+        </button>
+      </div>
+      <h2>Order List</h2>
+      <p>Melihat Memantau serta Mengelola Barang Yang di Pinjam di TU</p>
+      <table>
+        <thead>
+          <tr>
+            <th>PRODJOST ID</th>
+            <th>TANGGAL</th>
+            <th>NAMA</th>
+            <th>KEPERLUAN</th>
+            <th>NAMA BARANG</th>
+            <th>JUMLAH</th>
+            <th>STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#PRDJ028</td>
+            <td>NOV 28, 2024</td>
+            <td>Ibnu</td>
+            <td>Kejuruan</td>
+            <td>Laptop</td>
+            <td>1</td>
+            <td><span class="status status-new">NEW</span></td>
+          </tr>
+          <tr>
+            <td>#PRDJ029</td>
+            <td>NOV 28, 2024</td>
+            <td>Alfin</td>
+            <td>Matematika</td>
+            <td>Proyektor</td>
+            <td>1</td>
+            <td><span class="status status-new">NEW</span></td>
+          </tr>
+          <tr>
+            <td>#PRDJ030</td>
+            <td>NOV 29, 2024</td>
+            <td>Risky</td>
+            <td>Tanding Silat</td>
+            <td>Banner Perguruan</td>
+            <td>4</td>
+            <td><span class="status status-onprocess">ON PROCESS</span></td>
+          </tr>
+          <tr>
+            <td>#PRDJ031</td>
+            <td>NOV 29, 2024</td>
+            <td>Mubarok</td>
+            <td>Bertahan Hidup</td>
+            <td>Pancingan</td>
+            <td>1</td>
+            <td><span class="status status-done">DONE</span></td>
+          </tr>
+          <tr>
+            <td>#PRDJ032</td>
+            <td>NOV 31, 2024</td>
+            <td>Apin</td>
+            <td>Rahasia</td>
+            <td>Bunga</td>
+            <td>1</td>
+            <td><span class="status status-new">NEW</span></td>
+          </tr>
+          <tr>
+            <td>#PRDJ033</td>
+            <td>DES 05, 2024</td>
+            <td>Agus</td>
+            <td>Gebyar P5</td>
+            <td>Kostum SpiderMan</td>
+            <td>2</td>
+            <td><span class="status status-onprocess">ON PROCESS</span></td>
+          </tr>
+          <tr>
+            <td>#PRDJ034</td>
+            <td>DES 06, 2024</td>
+            <td>Apip</td>
+            <td>Hiburan</td>
+            <td>Sound Horeg</td>
+            <td>2</td>
+            <td><span class="status status-done">DONE</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+<script>document.getElementById('un').onclick = function () {
+    const overlay = document.querySelector('.overlay');
+    overlay.style.display = this.checked ? 'none' : 'block';
+  };</script>
+
+</html>
